@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_your_booking"
+            android:icon="@drawable/ic_baseline_trip_origin_24"
+            android:title="Current Bookings"/>
+
+        <item
+            android:id="@+id/nav_booking_history"
+            android:icon="@drawable/ic_baseline_history_24"
+            android:title="Booking History"/>
+
+        <item
+            android:id="@+id/nav_help_and_support"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="Help &amp; Support"/>
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="Share"/>
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Settings"/>
+
+        <item
+            android:id="@+id/nav_more"
+            android:icon="@drawable/ic_baseline_more_vert_24"
+            android:title="More"/>
+
+
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="Sign out" />
+    </group>
+</menu>
